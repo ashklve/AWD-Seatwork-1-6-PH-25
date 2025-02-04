@@ -114,3 +114,4 @@ WD-ProjectName
 | How to Create Grade Calculator | The use of let and looping. | https://youtu.be/dNY-voBk9Rs?feature=shared |
 | Google Fonts | For changing my fonts. | https://fonts.google.com/ |
 | Color Palette | For choosing good color palette.| https://webflow.com/blog/best-color-combinations |
+| Forms: Input Attributes | Using min and max length for the grades.| https://youtu.be/mQBBrCK8NLo?feature=shared|
