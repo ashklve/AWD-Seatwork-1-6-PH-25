@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GWhAaat?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kodchasan&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <div class = "nav-logo">
+                <a href="../../index.html">
+                    <img src="assets/img/gwhatLogo.png" alt="Logo">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/pages/blogPage/index.html">Blog</a></li>
+                <li><a href="/pages/aboutPage/index.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h2>Welcome to the Grade Management System</h2>
+        <p>Calculate your General Weighted Average (GWA) by entering your subject units and grades below.</p>
+    </div>
+
+    <div class="container">
+        <h1>Grade Management System</h1>
+        <form id="formGrade">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <div class="grades-container">
+                <div class="grade-row">
+                    <label>Subject 1:</label>
+                    <input type="number" class="unit" placeholder="Units" step="0.1" min="0.1" required>
+                    <input type="number" class="grade" placeholder="Grade" step="0.1" min="0" max="100" required>
+                </div>
+            
+                <div class="grade-row">
+                    <label>Subject 2:</label>
+                    <input type="number" class="unit" placeholder="Units" step="0.1" min="0.1" required>
+                    <input type="number" class="grade" placeholder="Grade" step="0.1" min="0" max="100" required>
+                </div>
+            
+                <div class="grade-row">
+                    <label>Subject 3:</label>
+                    <input type="number" class="unit" placeholder="Units" step="0.1" min="0.1" required>
+                    <input type="number" class="grade" placeholder="Grade" step="0.1" min="0" max="100" required>
+                </div>
+            
+                <div class="grade-row">
+                    <label>Subject 4:</label>
+                    <input type="number" class="unit" placeholder="Units" step="0.1" min="0.1" required>
+                    <input type="number" class="grade" placeholder="Grade" step="0.1" min="0" max="100" required>
+                </div>
+            
+                <div class="grade-row">
+                    <label>Subject 5:</label>
+                    <input type="number" class="unit" placeholder="Units" step="0.1" min="0.1" required>
+                    <input type="number" class="grade" placeholder="Grade" step="0.1" min="0" max="100" required>
+                </div>
+            </div>
+            
+
+            <button type="submit">Calculate GWA</button>
+        </form>
+
+        <div id="output" class="output"></div>
+    </div>
+
+
+    <footer class="footer">
+        <p>&copy; 2025 GWhAaat. All rights reserved.</p>
+    </footer>
+
+ <script src="assets/js/script.js"></script>
+</body>
+</html>
