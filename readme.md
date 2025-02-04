@@ -4,9 +4,8 @@
 
 <br />
 <div align ="center">
-  <a href="https://github.com/zyx-0314/">
-
-    <img src="./assets/img/gwhatLogo.png" alt="GWhAaat?" width="130" height="100">
+  <a href="https://github.com/ash/">
+  <img src="./assets/img/gwhatLogo.png" alt="GWhAaat?" width="130" height="100">
   </a>
 
   <h3 align ="center">GWhAaat?</h3>
