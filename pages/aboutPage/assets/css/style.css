@@ -35,7 +35,7 @@ body {
 }
 
 .nav-links a:hover {
-    color: #F2E8C6;
+    color: #982B1C;
 }
 
 .main {
@@ -89,6 +89,53 @@ body {
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
 }
 
+.feedback-container h2 {
+    margin-bottom: 20px; ;
+    color: #800000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px
+}
+
+.feedback-row {
+    display: flex;
+    gap: 20px;
+}
+
+.feedback-field {
+    flex: 1;
+    gap: 10px;
+}
+
+.feedback-field label {
+    font-weight: bold;
+    color: #333;
+}
+
+.feedback-field input, .feedback-field textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 5px;
+}
+
+button {
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: #800000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 
 .footer {
     background: #800000;
