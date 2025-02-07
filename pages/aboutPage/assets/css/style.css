@@ -127,6 +127,10 @@ form {
     margin-top: 5px;
 }
 
+.feedback-field.full-width {
+    flex: 2;
+}
+
 button {
     font-family: "Kodchasan", sans-serif;
     padding: 14px;
@@ -138,6 +142,17 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #982B1C;
+}
+
+@media (max-width: 768px) {
+    .feedback-row {
+        flex-direction: column;
+        gap: 15px;
+    }  
 }
 
 .footer {
@@ -155,4 +170,22 @@ button {
 .footer p {
     margin: 0;
     font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .introduction h1 {
+        font-size: 2.5rem;
+    }
+
+    .about-mission, .feedback-container {
+        padding: 15px;
+    }
+
+    button {
+        padding: 10px;
+    }
+
+    .feedback-row {
+        flex-direction: column;
+    }
 }
