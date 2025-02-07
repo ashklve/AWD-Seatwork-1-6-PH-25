@@ -5,7 +5,7 @@
 <br />
 <div align ="center">
   <a href="https://github.com/ash/">
-  <img src="./assets/img/gwhatLogo.png" alt="GWhAaat?" width="130" height="100">
+  <img src="./assets/img/gwhatLogo.png" alt="GWhAaat?" width="200" height="100">
   </a>
 
   <h3 align ="center">GWhAaat?</h3>
@@ -82,7 +82,7 @@ Guiding Question:
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-AWD-Seatwork-1-6-PH-25
 └─ assets
 |   └─ css
 |   |   └─ style.css
@@ -106,7 +106,6 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
 | Building a Calculator | To have an idea on javascript in calculations. | https://youtu.be/VbZs0nPUqhY?feature=shared |
@@ -114,3 +113,5 @@ WD-ProjectName
 | Google Fonts | For changing my fonts. | https://fonts.google.com/ |
 | Color Palette | For choosing good color palette.| https://webflow.com/blog/best-color-combinations |
 | Forms: Input Attributes | Using min and max length for the grades.| https://youtu.be/mQBBrCK8NLo?feature=shared|
+| Display | For displaying the reply after the user press the button.| https://youtube.com/shorts/cz5xTXZy-d4?feature=shared |
+| Setting Time Out | Used timeout for my form in about page | https://www.freecodecamp.org/news/javascript-settimeout-how-to-set-a-timer-in-javascript-or-sleep-for-n-seconds/ |
