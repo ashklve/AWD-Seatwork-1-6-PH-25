@@ -155,6 +155,10 @@ button:hover {
     }  
 }
 
+#tyMessage {
+    display: none;
+}
+
 .footer {
     background: #800000;
     color: #ddd;
