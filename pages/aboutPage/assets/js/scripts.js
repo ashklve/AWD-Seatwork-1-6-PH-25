@@ -27,6 +27,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
         setTimeout(() => {
             feedbackForm.reset();
-        }, 500);
+        }, 5000);
     });
 });
