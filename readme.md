@@ -115,3 +115,5 @@ WD-AWD-Seatwork-1-6-PH-25
 | Forms: Input Attributes | Using min and max length for the grades.| https://youtu.be/mQBBrCK8NLo?feature=shared|
 | Display | For displaying the reply after the user press the button.| https://youtube.com/shorts/cz5xTXZy-d4?feature=shared |
 | Setting Time Out | Used timeout for my form in about page | https://www.freecodecamp.org/news/javascript-settimeout-how-to-set-a-timer-in-javascript-or-sleep-for-n-seconds/ |
+| History | For storing students' history.| https://www.w3schools.com/jsref/prop_win_localstorage.asp |
+| JSON | Using JSON on my website| https://youtu.be/Frhh8esSECM?feature=shared |
