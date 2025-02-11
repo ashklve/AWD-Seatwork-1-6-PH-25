@@ -43,10 +43,15 @@ function displayHistory() {
     const historyList = document.getElementById('history');
     historyList.innerHTML = '';
 
-    const history = JSON.parse(localStorage.getItem('gwaHistory')) || [];
+    let history = JSON.parse(localStorage.getItem('gwaHistory')) || [];
+    const now = Date.now();
+
+    history = history.filter(entry => { now - entry.timestamp < 1800000 }); // history will be remove after 30mins
+    localStorage.setItem('gwaHistory', JSON.stringify(history));
+
     history.forEach(entry => {
         const li = document.createElement('li');
         li.textContent = `${entry.name} - GWA: ${entry.gwa} (Date: ${entry.date})`;
         historyList.appendChild(li);
-    })
+    });
 }
