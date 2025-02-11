@@ -1,3 +1,6 @@
+
+document.addEventListener('DOMContentLoaded', displayHistory);
+
 document.getElementById('formGrade').addEventListener('submit', function(event) {
     event.preventDefault();
 
@@ -25,4 +28,25 @@ document.getElementById('formGrade').addEventListener('submit', function(event) 
 
     document.getElementById('output').innerHTML = 
         `<p><strong>${name}</strong>, your General Weighted Average (GWA) is: <strong>${gwa}</strong></p>`;
+
+    saveHistory(name, gwa);
+    displayHistory();
 });
+
+function saveHistory(name, gwa) {
+    let history = JSON.parse(localStorage.getItem('gwaHistory')) || [];
+    history.push({ name, gwa, date: new Date().toLocaleString() });
+    localStorage.setItem('gwaHistory', JSON.stringify(history));
+}
+
+function displayHistory() {
+    const historyList = document.getElementById('history');
+    historyList.innerHTML = '';
+
+    const history = JSON.parse(localStorage.getItem('gwaHistory')) || [];
+    history.forEach(entry => {
+        const li = document.createElement('li');
+        li.textContent = `${entry.name} - GWA: ${entry.gwa} (Date: ${entry.date})`;
+        historyList.appendChild(li);
+    })
+}
