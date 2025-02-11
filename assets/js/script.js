@@ -35,7 +35,7 @@ document.getElementById('formGrade').addEventListener('submit', function(event) 
 
 function saveHistory(name, gwa) {
     let history = JSON.parse(localStorage.getItem('gwaHistory')) || [];
-    history.push({ name, gwa, date: new Date().toLocaleString() });
+    history.push({ name, gwa, date: new Date().toLocaleString(), timestamp:Date.now() });
     localStorage.setItem('gwaHistory', JSON.stringify(history));
 }
 
